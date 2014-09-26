@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.2'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'html5_validators'
 # Use sqlite3 as the database for Active Record
 group :development do
   gem 'sqlite3', '1.3.8'
@@ -44,4 +45,7 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+group :development do
+ gem 'better_errors', '~> 1.1.0'
+ gem 'binding_of_caller', '~> 0.7.2'
+end

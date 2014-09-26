@@ -13,7 +13,7 @@
 //= require jquery
 //= require jquery-1.11.0.js
 //= require jquery_ujs
-//= require bootstrap.js
+//= require bootstrap
 //= require bootstrap.min.js
 //= require agency.js
 //= require cbpAnimatedHeader.js
