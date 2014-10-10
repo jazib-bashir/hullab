@@ -6,5 +6,21 @@ development:
   username: postgres
   password: jazibb
   timeout: 500
+production:
+  host: localhost
+  adapter: postgresql
+  template: template0
+  database: hullab_db
+  username: postgres
+  password: jazibb
+  timeout: 500
+test:
+  host: localhost
+  adapter: postgresql
+  template: template0
+  database: hullab_db
+  username: postgres
+  password: jazibb
+  timeout: 500
 
 
